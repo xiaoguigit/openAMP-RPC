@@ -1,0 +1,1 @@
+/home/xlinx/workspace/rpu0_freertos_bsp/psu_cortexr5_0/libsrc/libmetal_v1_4/build_libmetal/lib/CMakeFiles/metal-static.dir

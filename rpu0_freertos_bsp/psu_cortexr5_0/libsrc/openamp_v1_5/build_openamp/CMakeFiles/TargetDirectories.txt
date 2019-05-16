@@ -1,0 +1,1 @@
+/home/xlinx/workspace/rpu0_freertos_bsp/psu_cortexr5_0/libsrc/openamp_v1_5/build_openamp/lib/CMakeFiles/open_amp-static.dir

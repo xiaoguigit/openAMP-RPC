@@ -1,0 +1,25 @@
+Determining if files xintc.h exist failed with the following output:
+Change Dir: /home/xlinx/workspace/rpu0_freertos_bsp/psu_cortexr5_0/libsrc/libmetal_v1_4/build_libmetal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_586bb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_586bb.dir/build.make CMakeFiles/cmTC_586bb.dir/build
+make[1]: Entering directory '/home/xlinx/workspace/rpu0_freertos_bsp/psu_cortexr5_0/libsrc/libmetal_v1_4/build_libmetal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_586bb.dir/CheckIncludeFiles.c.obj
+/home/xlinx/work/vivado/SDK/2018.2/gnu/armr5/lin/gcc-arm-none-eabi/bin/armr5-none-eabi-gcc   -O2 -c -mcpu=cortex-r5 -g -DARMR5 -Wall -Wextra  -mfpu=vfpv3-d16 -DUNDEFINE_FILE_OPS -I/home/xlinx/workspace/rpu0_freertos_bsp/psu_cortexr5_0/include    -o CMakeFiles/cmTC_586bb.dir/CheckIncludeFiles.c.obj   -c /home/xlinx/workspace/rpu0_freertos_bsp/psu_cortexr5_0/libsrc/libmetal_v1_4/build_libmetal/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/xlinx/workspace/rpu0_freertos_bsp/psu_cortexr5_0/libsrc/libmetal_v1_4/build_libmetal/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: xintc.h: No such file or directory
+ #include <xintc.h>
+          ^~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_586bb.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_586bb.dir/CheckIncludeFiles.c.obj' failed
+make[1]: Leaving directory '/home/xlinx/workspace/rpu0_freertos_bsp/psu_cortexr5_0/libsrc/libmetal_v1_4/build_libmetal/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTC_586bb.dir/CheckIncludeFiles.c.obj] Error 1
+Makefile:126: recipe for target 'cmTC_586bb/fast' failed
+make: *** [cmTC_586bb/fast] Error 2
+
+Source:
+/* */
+#include <xintc.h>
+
+
+int main(void){return 0;}
+

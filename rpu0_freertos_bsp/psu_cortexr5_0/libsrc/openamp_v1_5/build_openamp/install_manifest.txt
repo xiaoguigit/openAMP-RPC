@@ -1,0 +1,17 @@
+/lib/libopen_amp.a
+/include/openamp/virtio.h
+/include/openamp/compiler.h
+/include/openamp/open_amp.h
+/include/openamp/virtqueue.h
+/include/openamp/rsc_table_parser.h
+/include/openamp/virtio_ring.h
+/include/openamp/remoteproc.h
+/include/openamp/rpmsg_core.h
+/include/openamp/hil.h
+/include/openamp/firmware.h
+/include/openamp/env.h
+/include/openamp/rpmsg_retarget.h
+/include/openamp/sh_mem.h
+/include/openamp/elf_loader.h
+/include/openamp/remoteproc_loader.h
+/include/openamp/rpmsg.h

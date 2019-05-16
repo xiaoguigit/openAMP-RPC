@@ -1,0 +1,32 @@
+The target system is: FreeRTOS -  - arm
+The host system is: Linux - 4.15.0-47-generic - x86_64
+Determining if files stdatomic.h exist passed with the following output:
+Change Dir: /home/xlinx/workspace/rpu0_freertos_bsp/psu_cortexr5_0/libsrc/openamp_v1_5/build_openamp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_df293/fast"
+/usr/bin/make -f CMakeFiles/cmTC_df293.dir/build.make CMakeFiles/cmTC_df293.dir/build
+make[1]: Entering directory '/home/xlinx/workspace/rpu0_freertos_bsp/psu_cortexr5_0/libsrc/openamp_v1_5/build_openamp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_df293.dir/CheckIncludeFiles.c.obj
+/home/xlinx/work/vivado/SDK/2018.2/gnu/armr5/lin/gcc-arm-none-eabi/bin/armr5-none-eabi-gcc   -O2 -c -mcpu=cortex-r5 -g -DARMR5 -Wall -Wextra  -mfpu=vfpv3-d16 -I/home/xlinx/workspace/rpu0_freertos_bsp/psu_cortexr5_0/include -Wall -Wextra -c   -o CMakeFiles/cmTC_df293.dir/CheckIncludeFiles.c.obj   -c /home/xlinx/workspace/rpu0_freertos_bsp/psu_cortexr5_0/libsrc/openamp_v1_5/build_openamp/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_df293
+/home/xlinx/work/vivado/SDK/2018.2/tps/lnx64/cmake-3.3.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df293.dir/link.txt --verbose=1
+/home/xlinx/work/vivado/SDK/2018.2/gnu/armr5/lin/gcc-arm-none-eabi/bin/armr5-none-eabi-gcc  -O2 -c -mcpu=cortex-r5 -g -DARMR5 -Wall -Wextra  -mfpu=vfpv3-d16 -I/home/xlinx/workspace/rpu0_freertos_bsp/psu_cortexr5_0/include -Wall -Wextra -c    CMakeFiles/cmTC_df293.dir/CheckIncludeFiles.c.obj  -o cmTC_df293  
+armr5-none-eabi-gcc: warning: CMakeFiles/cmTC_df293.dir/CheckIncludeFiles.c.obj: linker input file unused because linking not done
+make[1]: Leaving directory '/home/xlinx/workspace/rpu0_freertos_bsp/psu_cortexr5_0/libsrc/openamp_v1_5/build_openamp/CMakeFiles/CMakeTmp'
+
+
+Determining if files fcntl.h exist passed with the following output:
+Change Dir: /home/xlinx/workspace/rpu0_freertos_bsp/psu_cortexr5_0/libsrc/openamp_v1_5/build_openamp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d5e64/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d5e64.dir/build.make CMakeFiles/cmTC_d5e64.dir/build
+make[1]: Entering directory '/home/xlinx/workspace/rpu0_freertos_bsp/psu_cortexr5_0/libsrc/openamp_v1_5/build_openamp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d5e64.dir/CheckIncludeFiles.c.obj
+/home/xlinx/work/vivado/SDK/2018.2/gnu/armr5/lin/gcc-arm-none-eabi/bin/armr5-none-eabi-gcc   -O2 -c -mcpu=cortex-r5 -g -DARMR5 -Wall -Wextra  -mfpu=vfpv3-d16 -I/home/xlinx/workspace/rpu0_freertos_bsp/psu_cortexr5_0/include -Wall -Wextra -c   -o CMakeFiles/cmTC_d5e64.dir/CheckIncludeFiles.c.obj   -c /home/xlinx/workspace/rpu0_freertos_bsp/psu_cortexr5_0/libsrc/openamp_v1_5/build_openamp/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_d5e64
+/home/xlinx/work/vivado/SDK/2018.2/tps/lnx64/cmake-3.3.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5e64.dir/link.txt --verbose=1
+/home/xlinx/work/vivado/SDK/2018.2/gnu/armr5/lin/gcc-arm-none-eabi/bin/armr5-none-eabi-gcc  -O2 -c -mcpu=cortex-r5 -g -DARMR5 -Wall -Wextra  -mfpu=vfpv3-d16 -I/home/xlinx/workspace/rpu0_freertos_bsp/psu_cortexr5_0/include -Wall -Wextra -c    CMakeFiles/cmTC_d5e64.dir/CheckIncludeFiles.c.obj  -o cmTC_d5e64  
+armr5-none-eabi-gcc: warning: CMakeFiles/cmTC_d5e64.dir/CheckIncludeFiles.c.obj: linker input file unused because linking not done
+make[1]: Leaving directory '/home/xlinx/workspace/rpu0_freertos_bsp/psu_cortexr5_0/libsrc/openamp_v1_5/build_openamp/CMakeFiles/CMakeTmp'
+
+

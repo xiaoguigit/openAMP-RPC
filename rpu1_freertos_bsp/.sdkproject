@@ -1,0 +1,4 @@
+THIRPARTY=false
+HW_PROJECT_REFERENCE=ZCU102_hw_platform
+PROCESSOR=psu_cortexr5_1
+MSS_FILE=system.mss

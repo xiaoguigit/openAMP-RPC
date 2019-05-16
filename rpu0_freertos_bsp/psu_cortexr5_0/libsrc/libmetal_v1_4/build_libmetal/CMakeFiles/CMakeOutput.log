@@ -1,0 +1,17 @@
+The target system is: FreeRTOS -  - arm
+The host system is: Linux - 4.15.0-47-generic - x86_64
+Determining if files stdatomic.h exist passed with the following output:
+Change Dir: /home/xlinx/workspace/rpu0_freertos_bsp/psu_cortexr5_0/libsrc/libmetal_v1_4/build_libmetal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dd51c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dd51c.dir/build.make CMakeFiles/cmTC_dd51c.dir/build
+make[1]: Entering directory '/home/xlinx/workspace/rpu0_freertos_bsp/psu_cortexr5_0/libsrc/libmetal_v1_4/build_libmetal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dd51c.dir/CheckIncludeFiles.c.obj
+/home/xlinx/work/vivado/SDK/2018.2/gnu/armr5/lin/gcc-arm-none-eabi/bin/armr5-none-eabi-gcc   -O2 -c -mcpu=cortex-r5 -g -DARMR5 -Wall -Wextra  -mfpu=vfpv3-d16 -DUNDEFINE_FILE_OPS -I/home/xlinx/workspace/rpu0_freertos_bsp/psu_cortexr5_0/include -c   -o CMakeFiles/cmTC_dd51c.dir/CheckIncludeFiles.c.obj   -c /home/xlinx/workspace/rpu0_freertos_bsp/psu_cortexr5_0/libsrc/libmetal_v1_4/build_libmetal/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_dd51c
+/home/xlinx/work/vivado/SDK/2018.2/tps/lnx64/cmake-3.3.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd51c.dir/link.txt --verbose=1
+/home/xlinx/work/vivado/SDK/2018.2/gnu/armr5/lin/gcc-arm-none-eabi/bin/armr5-none-eabi-gcc  -O2 -c -mcpu=cortex-r5 -g -DARMR5 -Wall -Wextra  -mfpu=vfpv3-d16 -DUNDEFINE_FILE_OPS -I/home/xlinx/workspace/rpu0_freertos_bsp/psu_cortexr5_0/include -c    CMakeFiles/cmTC_dd51c.dir/CheckIncludeFiles.c.obj  -o cmTC_dd51c  
+armr5-none-eabi-gcc: warning: CMakeFiles/cmTC_dd51c.dir/CheckIncludeFiles.c.obj: linker input file unused because linking not done
+make[1]: Leaving directory '/home/xlinx/workspace/rpu0_freertos_bsp/psu_cortexr5_0/libsrc/libmetal_v1_4/build_libmetal/CMakeFiles/CMakeTmp'
+
+
